@@ -1,0 +1,6 @@
+03:16:37 **** Clean-only build of configuration Nios II for project radar_software_bsp ****
+make clean 
+[BSP clean complete]
+
+03:16:38 Build Finished (took 687ms)
+

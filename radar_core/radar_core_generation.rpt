@@ -1,0 +1,170 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Temp\NIOSII_projects\radar_nios\radar_core.qsys --block-symbol-file --output-directory=C:\Temp\NIOSII_projects\radar_nios\radar_core --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading radar_nios/radar_core.qsys
+Progress: Reading input file
+Progress: Adding adc_0 [altera_up_avalon_adc 18.0]
+Progress: Parameterizing module adc_0
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_1
+Progress: Adding pio_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_2
+Progress: Adding pio_3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_3
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: radar_core.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: radar_core.pio_3: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: radar_core.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: radar_core.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Temp\NIOSII_projects\radar_nios\radar_core.qsys --synthesis=VHDL --output-directory=C:\Temp\NIOSII_projects\radar_nios\radar_core\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading radar_nios/radar_core.qsys
+Progress: Reading input file
+Progress: Adding adc_0 [altera_up_avalon_adc 18.0]
+Progress: Parameterizing module adc_0
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding pio_0 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_0
+Progress: Adding pio_1 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_1
+Progress: Adding pio_2 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_2
+Progress: Adding pio_3 [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio_3
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: radar_core.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: radar_core.pio_3: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: radar_core.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: radar_core.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: radar_core: Generating radar_core "radar_core" for QUARTUS_SYNTH
+Info: adc_0: Starting Generation of ADC Controller for DE-series Board
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_control.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_control.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_control_avrg_fifo.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_control_avrg_fifo.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_control_fsm.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_control_fsm.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_sample_store.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sample_store.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_sample_store_ram.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sample_store_ram.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_sequencer.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sequencer.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_sequencer_csr.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sequencer_csr.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file altera_modular_adc_sequencer_ctrl.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sequencer_ctrl.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file chsel_code_converter_sw_to_hw.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/chsel_code_converter_sw_to_hw.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file DE10_Lite_ADC_Core_modular_adc_0.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/DE10_Lite_ADC_Core_modular_adc_0.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file fiftyfivenm_adcblock_primitive_wrapper.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/fiftyfivenm_adcblock_primitive_wrapper.v from generate callback is unsafe; add static files from main program
+Warning: adc_0: add_file from generate callback added file fiftyfivenm_adcblock_top_wrapper.v with wrong prefix; use [get_generation_property output_name] to get correct prefix
+Warning: adc_0: add_file on static file C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/fiftyfivenm_adcblock_top_wrapper.v from generate callback is unsafe; add static files from main program
+Info: adc_0: C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/altera_up_avalon_adv_adc.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_control.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_control_avrg_fifo.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_control_fsm.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sample_store.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sample_store_ram.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sequencer.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sequencer_csr.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/altera_modular_adc_sequencer_ctrl.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/chsel_code_converter_sw_to_hw.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/DE10_Lite_ADC_Core_modular_adc_0.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/fiftyfivenm_adcblock_primitive_wrapper.v C:/intelfpga_lite/18.1/ip/altera/university_program/input_output/altera_up_avalon_adc/hdl/de10/fiftyfivenm_adcblock_top_wrapper.v C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0002_sopcgen/radar_core_adc_0.v
+Info: adc_0: "radar_core" instantiated altera_up_avalon_adc "adc_0"
+Info: jtag_uart_0: Starting RTL generation for module 'radar_core_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=radar_core_jtag_uart_0 --dir=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0005_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0005_jtag_uart_0_gen//radar_core_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'radar_core_jtag_uart_0'
+Info: jtag_uart_0: "radar_core" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "radar_core" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'radar_core_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=radar_core_onchip_memory2_0 --dir=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0006_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0006_onchip_memory2_0_gen//radar_core_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'radar_core_onchip_memory2_0'
+Info: onchip_memory2_0: "radar_core" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: pio_0: Starting RTL generation for module 'radar_core_pio_0'
+Info: pio_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=radar_core_pio_0 --dir=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0007_pio_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0007_pio_0_gen//radar_core_pio_0_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_0: Done RTL generation for module 'radar_core_pio_0'
+Info: pio_0: "radar_core" instantiated altera_avalon_pio "pio_0"
+Info: pio_1: Starting RTL generation for module 'radar_core_pio_1'
+Info: pio_1:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=radar_core_pio_1 --dir=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0008_pio_1_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0008_pio_1_gen//radar_core_pio_1_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_1: Done RTL generation for module 'radar_core_pio_1'
+Info: pio_1: "radar_core" instantiated altera_avalon_pio "pio_1"
+Info: pio_3: Starting RTL generation for module 'radar_core_pio_3'
+Info: pio_3:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=radar_core_pio_3 --dir=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0009_pio_3_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0009_pio_3_gen//radar_core_pio_3_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_3: Done RTL generation for module 'radar_core_pio_3'
+Info: pio_3: "radar_core" instantiated altera_avalon_pio "pio_3"
+Info: sysid_qsys_0: "radar_core" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "radar_core" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "radar_core" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "radar_core" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'radar_core_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=radar_core_nios2_gen2_0_cpu --dir=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0013_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/KELVIN/AppData/Local/Temp/alt9828_4491953188102412641.dir/0013_cpu_gen//radar_core_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.04.15 01:37:08 (*) Starting Nios II generation
+Info: cpu: # 2024.04.15 01:37:08 (*)   Checking for plaintext license.
+Info: cpu: # 2024.04.15 01:37:08 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2024.04.15 01:37:08 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2024.04.15 01:37:08 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2024.04.15 01:37:08 (*)   Plaintext license not found.
+Info: cpu: # 2024.04.15 01:37:08 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.04.15 01:37:08 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.04.15 01:37:08 (*)   Creating all objects for CPU
+Info: cpu: # 2024.04.15 01:37:09 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.04.15 01:37:09 (*)   Creating plain-text RTL
+Info: cpu: # 2024.04.15 01:37:10 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'radar_core_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: adc_0_adc_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "adc_0_adc_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: adc_0_adc_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "adc_0_adc_slave_agent"
+Info: adc_0_adc_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "adc_0_adc_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Temp/NIOSII_projects/radar_nios/radar_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Temp/NIOSII_projects/radar_nios/radar_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Temp/NIOSII_projects/radar_nios/radar_core/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: radar_core: Done "radar_core" with 32 modules, 58 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
